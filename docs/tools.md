@@ -12,6 +12,7 @@ List of the tools used in this project:
 - [NeverThrow](https://github.com/supermacro/neverthrow)
 - [React Hot Toast](https://react-hot-toast.com/)
 - [Shadcn UI](https://ui.shadcn.com/)
+- [T3 Env](https://env.t3.gg/)
 - [Tailwind Variants](https://tailwind-variants.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [TanStack CLI](https://tanstack.com/cli/latest)
