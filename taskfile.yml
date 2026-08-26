@@ -12,3 +12,4 @@ tasks:
   c: npm run check -- --fix
   f: npm run format -- --fix
   r: npm run generate-routes
+  pub: npm run build
