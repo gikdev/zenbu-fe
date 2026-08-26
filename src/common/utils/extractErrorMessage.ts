@@ -7,7 +7,9 @@ type ValidationProblem = {
 // biome-ignore lint/suspicious/noExplicitAny: it doesn't matter
 export function extractErrorMessage(error: any, fallback?: string): string {
   // Axios-style server response
-  const data: (ValidationProblem & { msg?: string; detail?: string }) | undefined = error?.response?.data
+  const data:
+    | (ValidationProblem & { msg?: string; detail?: string })
+    | undefined = error?.response?.data
 
   if (data) {
     // 1) If there is an "errors" dictionary, format it nicely
