@@ -14,6 +14,7 @@ interface MyRouterContext {
 
 export const Route = createRootRouteWithContext<MyRouterContext>()({
   shellComponent: RootDocument,
+  notFoundComponent: () => <p>Not Found; 404.</p>,
   head: () => ({
     links: [
       { rel: 'stylesheet', href: appCss },
